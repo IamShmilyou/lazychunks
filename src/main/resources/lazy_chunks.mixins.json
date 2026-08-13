@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "package": "net.rizen.lazy_chunks.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "accessor.IBlockableEventLoopAccessor",
+    "accessor.IPacketProcessorListenerAndPacketAccessor",
+    "BlockableEventLoopMixin",
+    "PacketProcessorMixin",
+    "DebugScreenOverlayMixin",
+    "VideoSettingsScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
