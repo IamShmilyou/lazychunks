@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "lazy_chunks",
+	"version": "${version}",
+	"name": "LazyChunks-Shmily",
+	"description": "Reduces stutters by spreading chunk loading across multiple frames.",
+	"authors": [
+		"rizen",
+		"Shmily"
+	],
+	"contact": {
+		"homepage": "https://space.bilibili.com/1576498148?spm_id_from=333.1007.0.0",
+		"sources": "https://github.com/IamShmilyou/LazyChunk",
+		"issues": "https://github.com/IamShmilyou/LazyChunk/issues"
+	},
+	"license": "LGPL-3.0",
+	"icon": "assets/lazy_chunks/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"net.rizen.lazy_chunks.LazyChunksMod"
+		]
+	},
+	"mixins": [
+		"lazy_chunks.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "1.20.1",
+		"java": ">=17"
+	}
+}
