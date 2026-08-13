@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "package": "net.rizen.lazy_chunks.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "accessor.IBlockableEventLoopAccessor",
+    "accessor.IPacketProcessorListenerAndPacketAccessor",
+    "MinecraftMixin",
+    "PacketProcessorMixin",
+    "DebugScreenOverlayMixin",
+    "OptionsSubScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
