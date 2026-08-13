@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "net.rizen.lazy_chunks.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "PacketUtilsMixin",
+    "BlockableEventLoopMixin",
+    "DebugScreenOverlayMixin",
+    "OptionsScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

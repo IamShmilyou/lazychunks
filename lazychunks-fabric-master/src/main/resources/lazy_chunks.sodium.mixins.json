@@ -1,0 +1,12 @@
+{
+  "required": false,
+  "package": "net.rizen.lazy_chunks.compat.sodium.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "plugin": "net.rizen.lazy_chunks.compat.sodium.mixin.LazyChunksSodiumMixinPlugin",
+  "client": [
+    "SodiumOptionsGuiMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}
